@@ -41,9 +41,13 @@ body {
   margin-bottom: 30px;
 }
 .content a {
-  text-indent: 2em;
   line-height: 1.7;
   color: #333;
   text-decoration: none;
   display: block;
+}
+
+.content a:before {
+  content: '-';
+  padding-right: 10px;
 }
